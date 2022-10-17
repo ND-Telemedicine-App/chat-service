@@ -14,30 +14,30 @@
 
 **Code documentation - Release 0.1.0 Major changes & Features - Date: 17/10/22**
 - Chat Class
-  > Attributes
-  > Getters and setters
-  > To String method
+  + Attributes
+  + Getters and setters
+  + To String method
 - Chat Controller:
-  > Chat Get API (Chats by Sender Id and Receiver Id, Receiver based on Sender Id, All Chats, Latest Chat)
-  > Chat Create API (Create new chat)
+  + Chat Get API (Chats by Sender Id and Receiver Id, Receiver based on Sender Id, All Chats, Latest Chat)
+  + Chat Create API (Create new chat)
 - Chat Service:
-  > findChatsBySenderIdAndReceiverId method
-  > findLatestChat method
-  > findAllChats method
-  > findReceiverBasedOnSender method
-  > createNewChat method
+  + findChatsBySenderIdAndReceiverId method
+  + findLatestChat method
+  + findAllChats method
+  + findReceiverBasedOnSender method
+  + createNewChat method
 - Chat Repository:
-  > findChatsBySenderIdAndReceiverId
-  > findChatsBySenderId
+  + findChatsBySenderIdAndReceiverId
+  + findChatsBySenderId
 - ChatServiceApplicationTests:
-  > Created various tests for the APIs
+  + Created various tests for the APIs
 
 - All classes:
-  > Debug and code cleanup
-  > Modify and implemented more comments on code
-  > CI Build and test
+  + Debug and code cleanup
+  + Modify and implemented more comments on code
+  + CI Build and test
 - PrescriptionServiceApplicationTests:
-  > Added comments for tests
+  + Added comments for tests
 
 To run this service locally on MySQL:
 
