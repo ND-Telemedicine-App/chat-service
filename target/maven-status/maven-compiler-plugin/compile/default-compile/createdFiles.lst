@@ -1,0 +1,5 @@
+com/team4/chat_service/model/Chat.class
+com/team4/chat_service/service/ChatService.class
+com/team4/chat_service/repo/ChatRepository.class
+com/team4/chat_service/ChatServiceApplication.class
+com/team4/chat_service/controller/ChatController.class

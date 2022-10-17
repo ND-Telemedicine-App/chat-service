@@ -18,19 +18,19 @@ public class ChatServiceApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        Chat newChat1 = new Chat(1L, 5L, 1L, "10:17PM", "Hello doctor");
+        Chat newChat1 = new Chat(1L, 4L, 1L, "10:17PM", "Hello doctor");
         chatRepository.save(newChat1);
 
-        Chat newChat2 = new Chat(2L, 1L, 5L, "10:18PM", "Hello patient");
+        Chat newChat2 = new Chat(2L, 1L, 4L, "10:18PM", "Hello patient");
         chatRepository.save(newChat2);
 
-        Chat newChat3 = new Chat(3L, 5L, 1L, "10:19PM", "I would like to have my prescription.");
+        Chat newChat3 = new Chat(3L, 4L, 1L, "10:19PM", "I would like to have my prescription.");
         chatRepository.save(newChat3);
 
-        Chat newChat4 = new Chat(4L, 1L, 5L, "10:20PM", "You should have Paracetamol as 2 tabs per day!");
+        Chat newChat4 = new Chat(4L, 1L, 4L, "10:20PM", "You should have Paracetamol as 2 tabs per day!");
         chatRepository.save(newChat4);
 
-        Chat newChat5 = new Chat(5L, 5L, 1L, "10:20PM", "Thank you sir!");
+        Chat newChat5 = new Chat(5L, 4L, 1L, "10:20PM", "Thank you sir!");
         chatRepository.save(newChat5);
 
     }
